@@ -1,23 +1,28 @@
-# Classes and Objects
+## Python - Classes and Objects
+> Each file in this repository holds code that illustrates an essential concept of programming,
+> specific to the Python programming language:
+> classes, instances, private/public fields/attributes, methods/functions, ```__str__``` to print,
+> comparator methods (```!=``` ```__ne__```, ```==``` ```__eq__```, ```>=``` ```__ge__```, ```>``` ```__gt__```, ```<``` ```__lt__```, ```<=``` ```__lt__```)
 
-Project done during **Full Stack Software Engineering studies** at **ALX School**. It aims to learn about object oriented programming (OOP), classes, objects, instances, methods and attributes in **Python**.
+### Description of what each file shows:
+* test_files ----- folder holds test files that showcase examples of how to use functions
+* Files that start with:
+0. create empty square class and build on this class in next files
+1. add private attribute size
+2. validate size is int and >= 0 else TypeError
+3. define public method area with ValueError if size < 0
+4. define getter and setter for size
+5. define print method to print square with "#"'s
+6. define private position attribute to use in printing offsets
+100. 100 - Singly Linked List - create head, insert nodes, print with ```__str__```
+101. 101 - define ```__str__``` method to print square if called with print()
+102. 102 - define comparator methods
+103. 103 - recreate code to match Bytecode (re: class, import, private attribute)
 
-## Technologies
-* Python Scripts are written with Python 3.10.6
-* C files are compiled using `gcc 11.2.0`
-* Tested on Ubuntu 20.04 LTS
+### Environment
+* Language: Python 11.2.0
+* OS: Ubuntu 20.04 LTS
+* Compiler: python3
+* Style guidelines: [PEP 8 (version 1.7)](https://www.python.org/dev/peps/pep-0008/) || [Docstrings](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
+---
 
-## Files
-| Filename | Description |
-| -------- | ----------- |
-| `0-square.py` | Empty class `Square` that defines a square |
-| `1-square.py` | Class `Square` that defines a square, based on `0-square.py` |
-| `2-square.py` | Class `Square` that defines a square, based on `1-square.py` |
-| `3-square.py` | Class `Square` that defines a square, based on `2-square.py` |
-| `4-square.py` | Class `Square` that defines a square, based on `3-square.py` |
-| `5-square.py` | Class `Square` that defines a square, based on `4-square.py` |
-| `6-square.py` | Class `Square` that defines a square, based on `5-square.py` |
-| `100-singly_linked_list.py` | Class `SinglyLinkedList` that represents a SLL of `Node` objects |
-| `101-square.py` | Class `Square` that defines a square, based on `6-square.py` |
-| `102-square.py` | Class `Square` that defines a square, based on `4-square.py` |
-| `103-python.c` | Python Class that does exactly the same as a Python bytecode given |
